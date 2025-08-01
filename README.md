@@ -1,6 +1,6 @@
 # 🧮 Scientific‑Calculator
 
-A Python-based scientific calculator CLI that supports advanced mathematical operations, base conversions, and BMI calculation. Designed for intuitive use and accurate results through a menu-driven interface.
+A Python-based scientific calculator with both **Command Line Interface (CLI)** and **Graphical User Interface (GUI using Tkinter)**. It supports a wide range of operations including arithmetic, scientific functions, base conversions, and BMI calculation.
 
 ---
 
@@ -16,10 +16,12 @@ Scientific-Calculator/
 
 This CLI calculator project, written in **Python**, offers:
 
-- Standard arithmetic operations: `+`, `-`, `*`, `/`
-- Scientific functions: exponentiation, logarithms, trigonometry
-- Base conversions: binary ↔ octal ↔ decimal ↔ hexadecimal
-- BMI Calculator: Calculates Body Mass Index based on height and weight inputs
+- 🧮 **Standard arithmetic**: `+`, `-`, `*`, `/`
+- 🧪 **Scientific functions**: `log`, `exp`, `sin`, `cos`, `tan`, `sqrt`, etc.
+- 💱 **Base conversions**: binary ↔ octal ↔ decimal ↔ hexadecimal
+- ⚖️ **BMI calculator**: Input height and weight to compute Body Mass Index
+- 🖥️ **GUI mode using Tkinter** for a user-friendly interactive interface
+- 💻 **CLI mode** for terminal-based usage
 
 It’s ideal for practicing math, health utilities, and small educational projects.
 
@@ -27,17 +29,22 @@ It’s ideal for practicing math, health utilities, and small educational projec
 
 ## 🚀 How to Run
 
-### 📥 Clone the Repository
+### 📥 Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/Shyam-jee/Scientific-Calculator.git
 cd Scientific-Calculator
 ```
-### ▶️ Run the Calculator
+### ▶️ Run CLI Version
 ```bash
 python3 MINIPROJECT.PY
 ```
-✅ Make sure Python 3.x is installed and accessible via python3.
+
+### 🖥️ Run GUI Version (Tkinter)
+```bash
+pip install tkinter
+```
+✅ Requires Python 3.x and Tkinter installed (usually comes bundled with Python)
 ---
 ## 🔍 Features
 - ✅ Simple CLI interface with menu-based navigation
